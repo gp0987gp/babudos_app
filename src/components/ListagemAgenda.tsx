@@ -7,7 +7,7 @@ import styles from '../App.module.css';
 import { CadastroAgendaInterface } from "../interface/CadastroAgenda";
 
 
-const ListagemAgenda = () => {
+const ListagemAgenda = () => {  
     const [agenda, setAgenda] = useState<CadastroAgendaInterface[]>([]);
     const [pesquisa, setPesquisa] = useState<string>("")
     const [error, setError] = useState("");

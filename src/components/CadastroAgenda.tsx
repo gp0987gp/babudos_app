@@ -141,7 +141,7 @@ const CadastroAgenda = () => {
                                 <div className='col-12'>
                                     <button  type='submit' className='btn btn-success btn-sm'>Cadastrar</button>
                                 </div>
-                            </form>
+                            </form> 
                         </div>
                     </div>
                 </div>
